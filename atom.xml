@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-06-08T01:32:34.261Z</updated>
+  <updated>2021-06-08T01:35:38.562Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,22 +17,25 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>wangzai</title>
+    <title>Hello World</title>
     <link href="http://example.com/2021/06/08/wangzai/"/>
     <id>http://example.com/2021/06/08/wangzai/</id>
-    <published>2021-06-08T01:31:57.000Z</published>
-    <updated>2021-06-08T01:32:34.261Z</updated>
+    <published>2021-06-08T01:31:57.201Z</published>
+    <updated>2021-06-08T01:35:38.562Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="什么是-反卷积"><a href="#什么是-反卷积" class="headerlink" title="什么是 反卷积"></a>什么是 反卷积</h2><h3 id="上采样（Upsample）"><a href="#上采样（Upsample）" class="headerlink" title="上采样（Upsample）"></a>上采样（Upsample）</h3><p> 计算机视觉 深度学习领域， 由于输入图像通过卷积神经网络（CNN）提取特征后<br>  输出尺寸往往会变小，而有时我们需要将图像恢复到原来尺寸<br>  扩大图像尺寸，实现图像由小分辨率到大分辨率的映射操作 即叫做上采样（Upsample）</p><h3 id="反卷积（Transfer-Convloution）"><a href="#反卷积（Transfer-Convloution）" class="headerlink" title="反卷积（Transfer Convloution）"></a>反卷积（Transfer Convloution）</h3><p>  上采样有3种常见的方法：双线性插值（ bilinear），反卷积（ Transposed Convolution），反池化Unpooling），我们这里只讨论反卷积。这里指的反卷积，也叫转置卷积，它并不是正向卷积的完全逆过程，用一句话来解释：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">反卷积是种特殊的正向卷积，先按照定的比例通过补0来扩大输入图像的尺寸，</span><br><span class="line">接看旋转卷积核，再进行正向卷积。</span><br></pre></td></tr></table></figure><hr><h2 id="反卷积的数学推导"><a href="#反卷积的数学推导" class="headerlink" title="反卷积的数学推导"></a>反卷积的数学推导</h2><p>输入图像 $input$ 尺寸$4 \times 4$ 元素矩阵为：<br>$$<br>\text { input }=\left[\begin{array}{cccc}<br>x_{1} &amp; x_{2} &amp; x_{3} &amp; x_{4} \<br>x_{5} &amp; x_{6} &amp; x_{7} &amp; x_{8} \<br>x_{9} &amp; x_{10} &amp; x_{11} &amp; x_{12} \<br>x_{13} &amp; x_{14} &amp; x_{15} &amp; x_{16}<br>\end{array}\right]<br>$$<br>卷积核 $kernel$ 尺寸是 $3\times3$</p>]]></content>
+    <content type="html"><![CDATA[<p>摘要</p><span id="more"></span><p>正文</p><h2 id="什么是-反卷积"><a href="#什么是-反卷积" class="headerlink" title="什么是 反卷积"></a>什么是 反卷积</h2><h3 id="上采样（Upsample）"><a href="#上采样（Upsample）" class="headerlink" title="上采样（Upsample）"></a>上采样（Upsample）</h3><p> 计算机视觉 深度学习领域， 由于输入图像通过卷积神经网络（CNN）提取特征后<br>  输出尺寸往往会变小，而有时我们需要将图像恢复到原来尺寸<br>  扩大图像尺寸，实现图像由小分辨率到大分辨率的映射操作 即叫做上采样（Upsample）</p><h3 id="反卷积（Transfer-Convloution）"><a href="#反卷积（Transfer-Convloution）" class="headerlink" title="反卷积（Transfer Convloution）"></a>反卷积（Transfer Convloution）</h3><p>  上采样有3种常见的方法：双线性插值（ bilinear），反卷积（ Transposed Convolution），反池化Unpooling），我们这里只讨论反卷积。这里指的反卷积，也叫转置卷积，它并不是正向卷积的完全逆过程，用一句话来解释：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">反卷积是种特殊的正向卷积，先按照定的比例通过补0来扩大输入图像的尺寸，</span><br><span class="line">接看旋转卷积核，再进行正向卷积。</span><br></pre></td></tr></table></figure><hr><h2 id="反卷积的数学推导"><a href="#反卷积的数学推导" class="headerlink" title="反卷积的数学推导"></a>反卷积的数学推导</h2><p>输入图像 $input$ 尺寸$4 \times 4$ 元素矩阵为：<br>$$<br>\text { input }=\left[\begin{array}{cccc}<br>x_{1} &amp; x_{2} &amp; x_{3} &amp; x_{4} \<br>x_{5} &amp; x_{6} &amp; x_{7} &amp; x_{8} \<br>x_{9} &amp; x_{10} &amp; x_{11} &amp; x_{12} \<br>x_{13} &amp; x_{14} &amp; x_{15} &amp; x_{16}<br>\end{array}\right]<br>$$<br>卷积核 $kernel$ 尺寸是 $3\times3$</p>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;h2 id=&quot;什么是-反卷积&quot;&gt;&lt;a href=&quot;#什么是-反卷积&quot; class=&quot;headerlink&quot; title=&quot;什么是 反卷积&quot;&gt;&lt;/a&gt;什么是 反卷积&lt;/h2&gt;&lt;h3 id=&quot;上采样（Upsample）&quot;&gt;&lt;a href=&quot;#上采样（Upsample）&quot; class</summary>
-      
+    <summary type="html">&lt;p&gt;摘要&lt;/p&gt;</summary>
     
     
     
+    <category term="Diary" scheme="http://example.com/categories/Diary/"/>
+    
+    
+    <category term="PS3" scheme="http://example.com/tags/PS3/"/>
+    
+    <category term="Games" scheme="http://example.com/tags/Games/"/>
     
   </entry>
   
