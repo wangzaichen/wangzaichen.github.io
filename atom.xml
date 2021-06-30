@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-06-30T08:10:49.661Z</updated>
+  <updated>2021-06-30T08:23:31.936Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>feature map 计算方法</title>
+    <link href="http://example.com/2021/06/30/featuremap/"/>
+    <id>http://example.com/2021/06/30/featuremap/</id>
+    <published>2021-06-30T08:22:51.858Z</published>
+    <updated>2021-06-30T08:23:31.936Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="feature-map-计算方法"><a href="#feature-map-计算方法" class="headerlink" title="feature map 计算方法"></a>feature map 计算方法</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">卷积层的feature map的变长为：conv1_h=（32-5）/1 + 1 = 28 </span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;feature-map-计算方法&quot;&gt;&lt;a href=&quot;#feature-map-计算方法&quot; class=&quot;headerlink&quot; title=&quot;feature map 计算方法&quot;&gt;&lt;/a&gt;feature map 计算方法&lt;/h2&gt;&lt;figure class=&quot;hi</summary>
+      
+    
+    
+    
+    <category term="Diary" scheme="http://example.com/categories/Diary/"/>
+    
+    
+    <category term="PS3" scheme="http://example.com/tags/PS3/"/>
+    
+    <category term="Games" scheme="http://example.com/tags/Games/"/>
+    
+  </entry>
   
   <entry>
     <title>损失函数目标函数</title>
