@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-06-30T08:06:50.045Z</updated>
+  <updated>2021-06-30T08:10:49.661Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2021/06/30/%E6%8D%9F%E5%A4%B1%E5%87%BD%E6%95%B0%E7%9B%AE%E6%A0%87%E5%87%BD%E6%95%B0/"/>
     <id>http://example.com/2021/06/30/%E6%8D%9F%E5%A4%B1%E5%87%BD%E6%95%B0%E7%9B%AE%E6%A0%87%E5%87%BD%E6%95%B0/</id>
     <published>2021-06-30T06:46:13.000Z</published>
-    <updated>2021-06-30T08:06:50.045Z</updated>
+    <updated>2021-06-30T08:10:49.661Z</updated>
     
     <content type="html"><![CDATA[<p>损失函数==代价函数</p><span id="more"></span><h1 id="损失函数-代价函数"><a href="#损失函数-代价函数" class="headerlink" title="损失函数==代价函数"></a>损失函数==代价函数</h1><p>首先给出结论：损失函数和代价函数是同个东西，目标函数是一个与他们相关但更广的概念，对于目标函数来说在有约束条件下的最小化就是损失函数（ loss function）</p><p>（图片来自 Andrew Ng Machine Learning公开课视频）<br><img src="https://pic4.zhimg.com/80/v2-3f4959cd70308df496ecc4568a0d982d_720w.jpg?source=1940ef5c" alt="avatar"></p><p>上面三个图的函数依次为f1（x），f2（x），f3（x）。我们是想用这三个函数分别来拟合Pce Pice的真实值记为Y我们给定c，这三个函数都会输出一个∫（X）这个输出的∫（X）与真实值Y可能是相同的，也可能是不同的，为了表示我们拟合的好坏，我们就用—个函数来度量拟合的程度，比如L（Y,f（X）=（Y-f（X）^2，这个函数就称为损失函数（ loss function），或者叫代价函数（ cost function）。损失函数越小，就代表模型拟合的越好那是不是我们的目标就只是让 loss function越小越好呢？还不是.</p><p>另一个概念 <strong>风险函数</strong>。 他是损失函数的期望。我们的输入输出是一个（X,Y）尊崇联合分布，一个函数的平均损失称作（经验风险）即，<br>$\frac { 1 } { N } \sum _ { i = 1 } ^ { N } L ( y _ { i } , {f ( x _ { i } )} )$  所以我们的目标是最小化<br>$\frac { 1 } { N } \sum _ { i = 1 } ^ { N } L ( y _ { i } , {f ( x _ { i } )} )$ </p><p>我们称之为<em><strong>经验风险最小化</strong></em></p>]]></content>
     
@@ -33,14 +33,12 @@
     <category term="Diary" scheme="http://example.com/categories/Diary/"/>
     
     
-    <category term="ML" scheme="http://example.com/tags/ML/"/>
-    
   </entry>
   
   <entry>
     <title>卷积和反卷积</title>
-    <link href="http://example.com/2021/06/08/wangzai/"/>
-    <id>http://example.com/2021/06/08/wangzai/</id>
+    <link href="http://example.com/2021/06/08/%E5%8D%B7%E7%A7%AF%E5%8F%8D%E5%8D%B7%E7%A7%AF/"/>
+    <id>http://example.com/2021/06/08/%E5%8D%B7%E7%A7%AF%E5%8F%8D%E5%8D%B7%E7%A7%AF/</id>
     <published>2021-06-08T01:31:57.201Z</published>
     <updated>2021-06-30T08:09:04.308Z</updated>
     
