@@ -59,16 +59,12 @@
     <link href="http://example.com/2021/06/30/featuremap/"/>
     <id>http://example.com/2021/06/30/featuremap/</id>
     <published>2021-06-30T08:22:51.858Z</published>
-    <updated>2022-01-06T07:59:09.596Z</updated>
+    <updated>2022-01-06T08:00:14.688Z</updated>
     
-    <content type="html"><![CDATA[<span id="more"></span><h2 id="feature-map-计算方法"><a href="#feature-map-计算方法" class="headerlink" title="feature map 计算方法"></a>feature map 计算方法</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">卷积层的feature map的变长为：conv1_h=（32-5）/1 + 1 = 28 </span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p>feature map 计算方法</p><span id="more"></span><h2 id="feature-map-计算方法"><a href="#feature-map-计算方法" class="headerlink" title="feature map 计算方法"></a>feature map 计算方法</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">卷积层的feature map的变长为：conv1_h=（32-5）/1 + 1 = 28 </span><br></pre></td></tr></table></figure>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
-&lt;h2 id=&quot;feature-map-计算方法&quot;&gt;&lt;a href=&quot;#feature-map-计算方法&quot; class=&quot;headerlink&quot; title=&quot;feature map 计算方法&quot;&gt;&lt;/a&gt;feature map 计算</summary>
-      
+    <summary type="html">&lt;p&gt;feature map 计算方法&lt;/p&gt;</summary>
     
     
     
